@@ -27,9 +27,10 @@ const appCreativeTwo = () => {
     <ThemeProvider theme={theme}>
       <Fragment>
         <Head>
-          <title>Mobile App Creative | A react next landing page</title>
+          <title>Fábrica do App | Fabrica de Software e Apps sob Demanda</title>
+          <link rel="icon" href="/favicon.ico" />
           <meta name="Description" content="React next landing page" />
-          <meta name="theme-color" content="#ec5555" />
+          {/* <meta name="theme-color" content="#ec5555" /> */}
           {/* Load google fonts */}
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
