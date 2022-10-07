@@ -1,6 +1,6 @@
-import { themeGet } from '@styled-system/theme-get';
-import { rgba } from 'polished';
-import styled from 'styled-components';
+import { themeGet } from "@styled-system/theme-get";
+import { rgba } from "polished";
+import styled from "styled-components";
 
 export const Section = styled.footer`
   padding-top: 50px;
@@ -8,24 +8,21 @@ export const Section = styled.footer`
 
 export const Grid = styled.div`
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   @media screen and (max-width: 1219px) {
-    gap: 30px 30px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 1000px) {
     gap: 20px 0px;
-    grid-template-columns: repeat(2, 50%);
+    grid-template-columns: repeat(1, 50%);
   }
 `;
 
 export const AboutUs = styled.div`
   @media screen and (min-width: 1024px) {
-    width: 240px;
     margin-right: 30px;
   }
   @media screen and (min-width: 1280px) {
-    width: 292px;
     margin-right: 80px;
   }
   @media screen and (max-width: 480px) {
@@ -36,7 +33,7 @@ export const AboutUs = styled.div`
     margin-bottom: 25px;
   }
   p {
-    color: ${themeGet('colors.textColor')};
+    color: ${themeGet("colors.textColor")};
     font-family: Inter, sans-serif;
     font-size: 15px;
     line-height: 2;
@@ -64,7 +61,7 @@ export const FooterWidget = styled.div`
   }
   .widgetListItem {
     a {
-      color: ${themeGet('colors.textColor')};
+      color: ${themeGet("colors.textColor")};
       font-size: 14px;
       line-height: 2.5;
       font-weight: 500;
@@ -91,7 +88,7 @@ export const ContactInfo = styled.div`
 `;
 
 export const InfoItem = styled.div`
-  color: ${themeGet('colors.textColor')};
+  color: ${themeGet("colors.textColor")};
   display: flex;
   align-items: flex-start;
   font-family: Inter, sans-serif;
@@ -99,7 +96,7 @@ export const InfoItem = styled.div`
   line-height: 28px;
   letter-spacing: -0.002em;
   i {
-    color: ${rgba('#000', 0.35)};
+    color: ${rgba("#000", 0.35)};
     margin-right: 12px;
   }
   .phone-icon {
@@ -111,8 +108,8 @@ export const InfoItem = styled.div`
 `;
 
 export const FooterBottom = styled.div`
-  border-top: 1px solid ${themeGet('colors.borderColor')};
-  color: ${themeGet('colors.headingColor')};
+  border-top: 1px solid ${themeGet("colors.borderColor")};
+  color: ${themeGet("colors.headingColor")};
   font-family: Inter, sans-serif;
   display: flex;
   align-items: center;
@@ -147,9 +144,9 @@ export const FooterNav = styled.ul`
       }
     }
     a {
-      color: ${themeGet('colors.headingColor')};
+      color: ${themeGet("colors.headingColor")};
       &:hover {
-        color: ${themeGet('colors.black')};
+        color: ${themeGet("colors.black")};
       }
     }
   }

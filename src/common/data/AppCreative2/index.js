@@ -18,8 +18,8 @@
 
 ====================*/
 
-import appleStore from "common/assets/image/appCreativeTwo/apple-store.png";
-import googlePlay from "common/assets/image/appCreativeTwo/google-play.png";
+import instagramButton from "common/assets/image/appCreativeTwo/insta-button.svg";
+import whatsappButton from "common/assets/image/appCreativeTwo/whatsapp-button.svg";
 import icon1 from "common/assets/image/appCreativeTwo/icons/1.webp";
 import icon2 from "common/assets/image/appCreativeTwo/icons/2.webp";
 import icon3 from "common/assets/image/appCreativeTwo/icons/3.webp";
@@ -43,7 +43,7 @@ import walletImage from "common/assets/image/appCreativeTwo/wallet-experience.we
 import dribbble from "common/assets/image/webAppCreative/icons/dribbble.png";
 import facebook from "common/assets/image/webAppCreative/icons/facebook.png";
 import twitter from "common/assets/image/webAppCreative/icons/twitter.png";
-import siteLogo from "common/assets/image/webAppCreative/logo.png";
+import siteLogo from "common/assets/image/appCreativeTwo/logo.png";
 
 /* ------------------------------------ */
 // Navbar data section
@@ -92,15 +92,15 @@ export const bannerData = {
   button: [
     {
       id: 1,
-      title: "Google Play",
-      thumb: googlePlay,
-      link: "https://play.google.com/store",
+      title: "Whatsapp Button",
+      thumb: whatsappButton,
+      link: "https://wa.me/+556596333873",
     },
     {
       id: 2,
-      title: "App Store",
-      thumb: appleStore,
-      link: "https://www.apple.com/sg/app-store/",
+      title: "Instagram Button",
+      thumb: instagramButton,
+      link: "https://www.instagram.com/fabricadoapp/",
     },
   ],
 };
@@ -147,17 +147,13 @@ export const whyChooseUs = [
 // Analytics Tool data section
 /* ------------------------------------ */
 export const analyticsTool = {
-  slogan: "Audience source monitoring",
-  title: "Advanced analytics tools to keep you in control & customizable",
-  desc: `Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool.`,
-  features: [
-    "Chat prompt module supported",
-    "Enjoy unlimited features by paid plans",
-    "Manage ultimate conversation",
-  ],
+  slogan: "Tecnologias da Fabrica de App",
+  title: "Quais tecnologias utilizamos em nossos projetos?",
+  desc: `Trabalhamos com desenvolvimento de tecnologias e linguagens de programação, nas melhores e principais plataformas e interfaces disponíveis.`,
+  features: ["iOS < iPhone e iPad >", "Android < Google >", "Web < Desktop >"],
   button: {
     link: "#",
-    label: "Explore More",
+    label: "Está em dúvidas? Fale com um especialista!",
   },
 };
 
@@ -168,55 +164,73 @@ export const everNeed = [
   {
     id: 1,
     icon: cards,
-    title: "50+ Unique Design Blocks",
+    title: "Design",
     background: "rgba(240, 64, 55, 0.097195)",
   },
   {
     id: 2,
     icon: layout,
-    title: "Multiple Layouts",
+    title: "Prototipação",
     background: "rgba(84, 84, 212, 0.1)",
   },
   {
     id: 3,
     icon: smartphone,
-    title: "Mobile First Design",
+    title: "Interatividade",
     background: "rgba(254, 220, 90, 0.1)",
   },
   {
     id: 4,
     icon: sidebar,
-    title: "Fully Responsive",
+    title: "Segurança",
     background: "rgba(84, 84, 212, 0.1)",
   },
   {
     id: 5,
     icon: grid,
-    title: "Bootstrap 4 Framework",
+    title: "Otimização",
     background: "rgba(240, 64, 55, 0.1)",
   },
   {
     id: 6,
     icon: grid,
-    title: "Bootstrap 4 Framework",
+    title: "Performance",
     background: "rgba(240, 64, 55, 0.1)",
   },
   {
     id: 7,
     icon: shape,
-    title: "Humanly Support",
+    title: "Upgrades",
     background: "rgba(119, 191, 65, 0.1)",
   },
   {
     id: 8,
     icon: loop,
-    title: "Lifetime Updates",
+    title: "Gestão",
     background: "rgba(240, 64, 55, 0.1)",
   },
   {
     id: 9,
     icon: doc,
-    title: "Rich Documentation",
+    title: "Integração",
+    background: "rgba(84, 84, 212, 0.1)",
+  },
+  {
+    id: 10,
+    icon: cards,
+    title: "Criatividade",
+    background: "rgba(84, 84, 212, 0.1)",
+  },
+  {
+    id: 11,
+    icon: sidebar,
+    title: "Agilidade",
+    background: "rgba(84, 84, 212, 0.1)",
+  },
+  {
+    id: 12,
+    icon: shape,
+    title: "Estabilidade",
     background: "rgba(84, 84, 212, 0.1)",
   },
 ];
@@ -225,30 +239,30 @@ export const everNeed = [
 // Testimonial data section
 /* ------------------------------------ */
 export const testimonialData = {
-  title: "What client say about us",
+  title: "O que o cliente diz sobre nós",
   posts: [
     {
       image: testimonial1,
       logo: testimonial1Logo,
-      text: "OMG! I cannot believe that I have got a brand new landing page after getting this template we are able to use our most used e-commerce template with modern and trending design. We deliver on such an expansive with innovation agenda with so many theme projects.",
-      name: "Mariana Dickey",
-      designation: "Head of Design by GeekWire",
+      text: "Nossa! A Fábrica de App resolveu meus problema, eu precisava de um e-commerce no nicho de Pet, eles me atenderam super bem e o melhor, com valores super acessíveis.",
+      name: "Mariana Dilena",
+      designation: "Head of Design",
       rating: 5,
       button: {
         link: "#",
-        label: "Read the GeekWire case study",
+        label: "Saiba mais",
       },
     },
     {
       image: testimonial2,
       logo: testimonial2Logo,
-      text: "One morning, when Gregor Samsa woke from troubled dreams, he found himself transformed in his bed into a horrible vermin. He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections.",
+      text: "Estava com problemas de lentidão em meu sistema, entrei em contato com a Fabrica de App, logo me responderam, marcaram uma reunião para o entendimento e diagnóstico, em menos de 2 meses já estou com meu novo sistema, com vários clientes acessando.",
       name: "Jonathan Taylor",
-      designation: "Head of Communication by Envato",
+      designation: "Head of Communication",
       rating: 4,
       button: {
         link: "#",
-        label: "Read the Envato case study",
+        label: "Saiba mais",
       },
     },
   ],
@@ -258,24 +272,38 @@ export const testimonialData = {
 // Wallet Experience data section
 /* ------------------------------------ */
 export const walletExperience = {
-  slogan: "Ultimate wallet experience",
-  title: "Take your wallet experience to new ultimate level",
-  desc: `Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool.`,
+  slogan: "",
+  title: "Oque nos torna único?",
+  // desc: `Pick one of our stock themes, or create your custom theme with the most advanced theme editor on any online survey building tool.`,
   thumb: walletImage,
   features: [
     {
       id: 1,
       icon: walletIcon1,
-      title: "Fast & Instant Transfer",
+      title: "Imersão",
       content:
-        "We’re driven beyond just finishing the projects. We want to find solutions.",
+        "Entendendo como seu negócio funciona, assim obtemos informações valiosas para o projeto.",
     },
     {
       id: 2,
       icon: walletIcon2,
-      title: "File Management System",
+      title: "Cronograma completo de etapas",
       content:
-        "We’re driven beyond just finishing the projects. We want to find solutions with the assessment.",
+        "Logo no início do projeto, teremos um cronograma com todas as etapas do projeto. Incluindo: Entregas, pontos de contato e reuniões.",
+    },
+    {
+      id: 2,
+      icon: walletIcon2,
+      title: "Boas práticas e as melhores ferramentas",
+      content:
+        "Trabalhamos com excelentes ferramentas que possibilitam a implementação de metodologias ágeis em conjunto com boas práticas no setor de tecnologia.",
+    },
+    {
+      id: 2,
+      icon: walletIcon2,
+      title: "E muito mais...",
+      // content:
+      //   "Profissionais capacitados e com dedicação singular a cada projeto.",
     },
   ],
 };
@@ -284,13 +312,13 @@ export const walletExperience = {
 // Technology Community data section
 /* ------------------------------------ */
 export const technologyCommunity = {
-  slogan: "Technology based Community",
-  title:
-    "Join our community by using our technology to grow up faster with our tools",
-  desc: `Our data centers have top-notch security and surveillance, with a reliable 99.9% uptime. Secure email hosting with encryption both at rest and end-to-end, along with S/MIME message encryption.`,
+  // slogan: "Technology based Community",
+  title: "Porque existimos?",
+  desc: `Acreditamos que a tecnologia pode ser acessível para todos os projetos do futuro e do presente, e não apenas nas grandes corporações, por isso democratizamos o desenvolvimento de produtos digitais para acelerar a viabilidade do seu negócio.
+  Somos uma Software House que através de uma metodologia ágil e times especializados no conceito LowCode, opera as melhores práticas de desenvolvimento de softwares do mercado, para tirar o seu projeto do papel.`,
   thumb: technologyImage,
   button: {
-    label: "Explore More",
+    label: "Vamos marcar uma conversa",
     link: "#",
   },
 };
@@ -450,23 +478,28 @@ export const pricing = {
 export const faqs = [
   {
     id: 1,
-    title: "Can I use Omega for my clients?",
-    description: `Absolutely. The Envato Theme license allows you to build a websites for personal use or for a client. User Omega for your clients.`,
+    title: "O que é uma fábrica de software",
+    description: `Fábrica de Software é uma empresa especializada no desenvolvimento de projetos de software customizados. Dependendo do modelo da empresa, ela pode ser especializada apenas em desenvolvimento de sistemas, como aplicativos, portais ou e-commerces. Há fábricas de software, como a Fabrica do App, que atuam no desenvolvimento de todas estas soluções digitais.`,
   },
   {
     id: 2,
-    title: "Do I get free updates?",
-    description: `Yes. We update all of our themes regularly, plus are constantly adding new components, pages, and features to our themes. Purchase once and get lifetime updates.`,
+    title: "Quais são os serviços de uma fábrica de software",
+    description: `A Fábrica de Software é especializada no desenvolvimento de software sob demanda, podendo ter variações como:
+
+    Escopo fechado,
+    Alocação de squads na metodologia ágil,
+    Outsourcing de profissionais,
+    Suporte e sustentação.`,
   },
   {
     id: 3,
-    title: "Does it work with WordPress?",
-    description: `Create custom landing pages with Omega that converts more visitors than any website. With lots of unique blocks, you can easily build a page without any design or custom coding. `,
+    title: "Como funciona construir um projeto de software sob medida",
+    description: `O desenvolvimento de um software sob medida inicia com o entendimento do projeto, através do mapeamento das funcionalidades e criação de um layout (telas). Após o entendimento do esforço de tempo e de horas para desenvolver, inicia-se o processo de desenvolvimento, podendo ser em cascata (modelo mais tradicional) ou na metodologia ágil (modelo mais recente com entregas quinzenais).  Para mais detalhes, confira este artigo de como tirar um projeto de software do papel.`,
   },
   {
     id: 4,
-    title: "Will you provide support?",
-    description: `With lots of unique blocks, you can easily build a page without any design or custom coding. with Omega that converts more visitors than any website.`,
+    title: "Quanto custa um software sob medida",
+    description: `Um software sob medida poderá ter variações de acordo com a complexidade do projeto e também o tipo de serviço que você contrata. Por exemplo, freelancers resolvem soluções de ajustes, websites ou novos módulos em plataformas com investimentos de 5 a 50 mil reais. Enquanto projetos complexos (apps, portais e sistemas), com a contratação de uma fábrica de software, podem variar de 120 a 500 mil reais (até mais dependendo da complexidade).`,
   },
 ];
 
@@ -474,14 +507,14 @@ export const faqs = [
 // CTA data section
 /* ------------------------------------ */
 export const callToAction = {
-  title: "Explore ultimate feature with premium",
+  title: "Ainda ficou com dúvidas?",
   content:
-    "Tell us your Apple ID email address so we could send you a TestFlight invitation directly.",
+    "Estamos prontos para atende-lo, vamos marcar uma conversa para entendermos mais sobre o seu negócio?",
   button: {
-    label: "Start 14 Days Free Trial",
+    label: "Quero entender melhor",
     link: "#",
   },
-  info: "No credit card required",
+  // info: "No credit card required",
 };
 
 /* ------------------------------------ */
@@ -490,109 +523,109 @@ export const callToAction = {
 export const footerTop = {
   about: {
     logo: siteLogo,
-    text: `We run Advanced Search reports on the criteria you care about to see how work is progressing and where to focus your effort.`,
+    text: `Somos movidos pelo desejo de mudança, da inovação, de fazer diferente. Queremos entregar valor e realizações nos projetos de software que desenvolvemos. Com nossa cultura e um time preparado, descomplicamos a inovação através das metodologias mais recentes de desenvolvimento.`,
   },
   widgets: [
-    {
-      id: 2,
-      title: "About Us",
-      list: [
-        {
-          id: 1,
-          title: "Support Center",
-          link: "#",
-        },
-        {
-          id: 2,
-          title: "Customer Support",
-          link: "#",
-        },
-        {
-          id: 3,
-          title: "About Us",
-          link: "#",
-        },
-        {
-          id: 4,
-          title: "Copyright",
-          link: "#",
-        },
-        {
-          id: 5,
-          title: "Popular Campaign",
-          link: "#",
-        },
-      ],
-    },
-    {
-      id: 3,
-      title: "Our Information",
-      list: [
-        {
-          id: 1,
-          title: "Return Policy ",
-          link: "#",
-        },
-        {
-          id: 2,
-          title: "Privacy Policy",
-          link: "#",
-        },
-        {
-          id: 3,
-          title: "Terms & Conditions",
-          link: "#",
-        },
-        {
-          id: 4,
-          title: "Site Map",
-          link: "#",
-        },
-        {
-          id: 5,
-          title: "Store Hours",
-          link: "#",
-        },
-      ],
-    },
-    {
-      id: 4,
-      title: "My Account",
-      list: [
-        {
-          id: 1,
-          title: "Press inquiries",
-          link: "#",
-        },
-        {
-          id: 2,
-          title: "Social media ",
-          link: "#",
-        },
-        {
-          id: 3,
-          title: "directories",
-          link: "#",
-        },
-        {
-          id: 4,
-          title: "Images & B-roll",
-          link: "#",
-        },
-        {
-          id: 5,
-          title: "Permissions",
-          link: "#",
-        },
-      ],
-    },
+    // {
+    //   id: 2,
+    //   title: "About Us",
+    //   list: [
+    //     {
+    //       id: 1,
+    //       title: "Support Center",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 2,
+    //       title: "Customer Support",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 3,
+    //       title: "About Us",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 4,
+    //       title: "Copyright",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 5,
+    //       title: "Popular Campaign",
+    //       link: "#",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 3,
+    //   title: "Our Information",
+    //   list: [
+    //     {
+    //       id: 1,
+    //       title: "Return Policy ",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 2,
+    //       title: "Privacy Policy",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 3,
+    //       title: "Terms & Conditions",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 4,
+    //       title: "Site Map",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 5,
+    //       title: "Store Hours",
+    //       link: "#",
+    //     },
+    //   ],
+    // },
+    // {
+    //   id: 4,
+    //   title: "My Account",
+    //   list: [
+    //     {
+    //       id: 1,
+    //       title: "Press inquiries",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 2,
+    //       title: "Social media ",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 3,
+    //       title: "directories",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 4,
+    //       title: "Images & B-roll",
+    //       link: "#",
+    //     },
+    //     {
+    //       id: 5,
+    //       title: "Permissions",
+    //       link: "#",
+    //     },
+    //   ],
+    // },
   ],
   contactInfo: {
-    title: "Contact info",
-    address: `Amsterdam, Netherlands`,
-    phone: `+012 34 56 78 910`,
-    openingTime: `7 Days - 8am - 10pm`,
-    email: `info@demo.com`,
+    title: "Informações para contato",
+    address: `Av. Miguel Sútil, Ribeirão da Ponte - 72`,
+    phone: `+55 (65) 9 92220-6152 | +55 (65) 9 9633-3873`,
+    // openingTime: `7 Days - 8am - 10pm`,
+    email: `suporte@fabridadoapp.com`,
   },
 };
 
@@ -600,47 +633,47 @@ export const footerTop = {
 // Footer data section
 /* ------------------------------------ */
 export const footer = {
-  copyright: `Copyright © 2021 Superprops. All rights reserved`,
+  copyright: `Copyright © 2022 Fabrica do App. Todos os direitos reservados`,
   nav: [
     {
       id: 1,
-      title: "Support",
+      title: "Suporte",
       link: "#",
     },
-    {
-      id: 2,
-      title: "Hiring",
-      link: "#",
-    },
+    // {
+    //   id: 2,
+    //   title: "Hiring",
+    //   link: "#",
+    // },
     {
       id: 3,
-      title: "Privacy",
+      title: "Privacidade",
       link: "#",
     },
     {
       id: 4,
-      title: "Terms",
+      title: "Termos",
       link: "#",
     },
   ],
-  socialLinks: [
-    {
-      id: 1,
-      link: "http://facebook.com",
-      icon: facebook,
-      label: "Facebook",
-    },
-    {
-      id: 2,
-      link: "http://twitter.com",
-      icon: twitter,
-      label: "Twitter",
-    },
-    {
-      id: 3,
-      link: "http://dribbble.com",
-      icon: dribbble,
-      label: "Dribbble",
-    },
-  ],
+  // socialLinks: [
+  //   {
+  //     id: 1,
+  //     link: "http://facebook.com",
+  //     icon: facebook,
+  //     label: "Facebook",
+  //   },
+  //   {
+  //     id: 2,
+  //     link: "http://twitter.com",
+  //     icon: twitter,
+  //     label: "Twitter",
+  //   },
+  //   {
+  //     id: 3,
+  //     link: "http://dribbble.com",
+  //     icon: dribbble,
+  //     label: "Dribbble",
+  //   },
+  // ],
 };
