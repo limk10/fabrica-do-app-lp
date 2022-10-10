@@ -28,9 +28,49 @@ const appCreativeTwo = () => {
     <ThemeProvider theme={theme}>
       <Fragment>
         <Head>
-          <title>Fábrica do App | Fabrica de Software e Apps sob Demanda</title>
           <link rel="icon" href="/favicon.ico" />
-          <meta name="Description" content="React next landing page" />
+          <title>Fábrica do App | Fabrica de Software e Apps sob Demanda</title>
+          <meta
+            name="title"
+            content="Fábrica do App | Fabrica de Software e Apps sob Demanda"
+          />
+          <meta
+            name="description"
+            content="Fábrica do App | Fabrica de Software e Apps sob Demanda"
+          />
+
+          <meta property="og:type" content="website" />
+          <meta property="og:url" content="https://www.fabricadoapp.com/" />
+          <meta
+            property="og:title"
+            content="Fábrica do App | Fabrica de Software e Apps sob Demanda"
+          />
+          <meta
+            property="og:description"
+            content="Fábrica do App | Fabrica de Software e Apps sob Demanda"
+          />
+          <meta
+            property="og:image"
+            content="https://firebasestorage.googleapis.com/v0/b/stcar-automotive.appspot.com/o/Group%20148.png?alt=media&token=8b4cea59-cdb3-44bf-bdf0-d466d1ed7735.png"
+          />
+
+          <meta property="twitter:card" content="summary_large_image" />
+          <meta
+            property="twitter:url"
+            content="https://www.fabricadoapp.com/"
+          />
+          <meta
+            property="twitter:title"
+            content="Fábrica do App | Fabrica de Software e Apps sob Demanda"
+          />
+          <meta
+            property="twitter:description"
+            content="Fábrica do App | Fabrica de Software e Apps sob Demanda"
+          />
+          <meta
+            property="twitter:image"
+            content="https://firebasestorage.googleapis.com/v0/b/stcar-automotive.appspot.com/o/Group%20148.png?alt=media&token=8b4cea59-cdb3-44bf-bdf0-d466d1ed7735.png"
+          />
           {/* <meta name="theme-color" content="#ec5555" /> */}
           {/* Load google fonts */}
           <link rel="preconnect" href="https://fonts.gstatic.com" />

@@ -136,8 +136,8 @@ const ResetCSS = createGlobalStyle`
   }
   @media screen and (max-width: 767px) {
       .whatsapp-icon {
-          margin-top: 11px;
-          margin-left: 3px;
+          margin-top: 10px;
+          margin-left: 1px;
           font-size: 30px;
       }
 
