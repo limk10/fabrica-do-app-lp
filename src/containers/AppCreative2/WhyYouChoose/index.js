@@ -20,7 +20,12 @@ const WhyYouChoose = (props) => {
           {whyChooseUs?.map((howTo) => (
             <Item key={howTo?.id}>
               <figure>
-                <NextImage src={howTo?.icon} alt="icon" />
+                <NextImage
+                  width="125px"
+                  height="125px"
+                  src={howTo?.icon}
+                  alt="icon"
+                />
               </figure>
               <Heading as="h4" content={howTo?.title} />
               <Text content={howTo?.text} />

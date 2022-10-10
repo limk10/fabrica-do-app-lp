@@ -20,10 +20,10 @@
 
 import instagramButton from "common/assets/image/appCreativeTwo/insta-button.svg";
 import whatsappButton from "common/assets/image/appCreativeTwo/whatsapp-button.svg";
-import icon1 from "common/assets/image/appCreativeTwo/icons/1.webp";
-import icon2 from "common/assets/image/appCreativeTwo/icons/2.webp";
-import icon3 from "common/assets/image/appCreativeTwo/icons/3.webp";
-import icon4 from "common/assets/image/appCreativeTwo/icons/4.webp";
+import icon1 from "common/assets/image/appCreativeTwo/icons/1.png";
+import icon2 from "common/assets/image/appCreativeTwo/icons/2.png";
+import icon3 from "common/assets/image/appCreativeTwo/icons/3.png";
+import icon4 from "common/assets/image/appCreativeTwo/icons/4.png";
 import walletIcon1 from "common/assets/image/appCreativeTwo/icons/5.webp";
 import walletIcon2 from "common/assets/image/appCreativeTwo/icons/6.webp";
 import cards from "common/assets/image/appCreativeTwo/icons/cards.png";
@@ -169,7 +169,7 @@ export const everNeed = [
   },
   {
     id: 2,
-    icon: layout,
+    icon: loop,
     title: "Prototipação",
     background: "rgba(84, 84, 212, 0.1)",
   },
@@ -622,7 +622,7 @@ export const footerTop = {
   ],
   contactInfo: {
     title: "Informações para contato",
-    address: `Av. Miguel Sútil, Ribeirão da Ponte - 72`,
+    address: `Av. Miguel Sútil, Santa Rosa - 72`,
     phone: `+55 (65) 9 92220-6152 | +55 (65) 9 9633-3873`,
     // openingTime: `7 Days - 8am - 10pm`,
     email: `suporte@fabridadoapp.com`,
