@@ -206,6 +206,10 @@ export const GlobalStyle = createGlobalStyle`
     @media (max-width: 991px) {
       justify-content: center;
     }
+    @media (max-width: 600px) {
+      flex-direction: column;
+      align-items: center;
+    }
   }
 `;
 

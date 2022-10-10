@@ -1,9 +1,13 @@
-import { themeGet } from '@styled-system/theme-get';
-import styled from 'styled-components';
+import { themeGet } from "@styled-system/theme-get";
+import styled from "styled-components";
 
 const SectionWrapper = styled.section`
   padding: 150px 0;
-  background: linear-gradient(180deg, rgba(230, 249, 255, 0) 0%, rgba(230, 249, 255, 0.8) 100%);
+  background: linear-gradient(
+    180deg,
+    rgba(230, 249, 255, 0) 0%,
+    rgba(230, 249, 255, 0.8) 100%
+  );
   @media only screen and (max-width: 1366px) {
     padding: 150px 0;
   }
@@ -37,12 +41,12 @@ export const ButtonGroup = styled.div`
     border-style: solid;
     border-color: #fff;
     transition-duration: 0.4s;
-    transition-property: background-color,box-shadow;
+    transition-property: background-color, box-shadow;
     cursor: pointer;
     box-sizing: border-box;
     position: relative;
-    background-color: #E9F0F2;
-    border-color: rgba(255,255,255,0);
+    background-color: #e9f0f2;
+    border-color: rgba(255, 255, 255, 0);
     // pointer-events: none;
     // user-select: none;
   }
@@ -55,14 +59,14 @@ export const ButtonGroup = styled.div`
     left: 0px;
     position: absolute;
     background-color: #fff;
-    transition-timing-function: cubic-bezier(1,0,0,1);
+    transition-timing-function: cubic-bezier(1, 0, 0, 1);
     transition-duration: 0.4s;
-    transition-property: left,background-color;
+    transition-property: left, background-color;
   }
   .promotion_alert_box {
     order: 3;
-    background-color: ${themeGet('colors.danger')};
-    color: ${themeGet('colors.white')};
+    background-color: ${themeGet("colors.danger")};
+    color: ${themeGet("colors.white")};
     border-radius: 5px;
     padding: 6px 9px;
     font-size: 13px;
@@ -98,10 +102,10 @@ export const ButtonGroup = styled.div`
     }
     &.checked {
       span {
-        color: ${themeGet('colors.primary')};
+        color: ${themeGet("colors.primary")};
       }
       + .switch_outer {
-        background-color: ${themeGet('colors.primary')};
+        background-color: ${themeGet("colors.primary")};
         .switch_inner {
           left: calc(var(--switchHeight) / 2 + 5px);
         }
@@ -148,9 +152,9 @@ export const PricingCard = styled.div`
   max-width: 565px;
   border-radius: 10px;
   @media only screen and (min-width: 668px) {
-    box-shadow: ${themeGet('colors.pricingShadow')};
+    box-shadow: ${themeGet("colors.pricingShadow")};
   }
-  background-color: ${themeGet('colors.white')};
+  background-color: ${themeGet("colors.white")};
   position: relative;
   overflow: hidden;
   @media only screen and (max-width: 1366px) {
@@ -178,7 +182,7 @@ export const PricingCard = styled.div`
       margin-bottom: 25px;
     }
     h3 {
-      color: ${themeGet('colors.primary', '#4780ED')};
+      color: ${themeGet("colors.primary", "#4780ED")};
       letter-spacing: -0.500211px;
       font-size: 20px;
       font-weight: 500;
@@ -186,12 +190,12 @@ export const PricingCard = styled.div`
     }
     p {
       letter-spacing: -0.2px;
-      color: #19191B;
+      color: #19191b;
       opacity: 0.6;
       font-size: 18px;
     }
     .price {
-      color: #19191B;
+      color: #19191b;
       font-weight: 500;
       @media (min-width: 1564px) {
         font-size: 80px;
@@ -226,7 +230,7 @@ export const PricingCard = styled.div`
     }
     .feature-list {
       li {
-        color: #19191B;
+        color: #19191b;
         font-weight: 500;
         @media (min-width: 1564px) {
           font-size: 18px;
@@ -239,7 +243,7 @@ export const PricingCard = styled.div`
           margin-bottom: 21px;
         }
         i {
-          color: ${themeGet('colors.primary', '#2563FF')};
+          color: ${themeGet("colors.primary", "#2563FF")};
           margin-right: 12px;
           @media (min-width: 992px) {
             width: 30px;
@@ -257,8 +261,8 @@ export const PricingCard = styled.div`
           position: relative;
           &:before {
             content: "";
-            background-color: ${themeGet('colors.primary', '#2563FF')};
-            opacity: .15;
+            background-color: ${themeGet("colors.primary", "#2563FF")};
+            opacity: 0.15;
             height: 100%;
             width: 100%;
             top: 0;
@@ -278,13 +282,13 @@ export const PricingCard = styled.div`
   .card-footer {
     .card_button {
       text-align: center;
-      background-color: ${themeGet('colors.primary', '#2563FF')};
+      background-color: ${themeGet("colors.primary", "#2563FF")};
       display: block;
       text-align: center;
-      color: ${themeGet('colors.white', '#FFF')};
+      color: ${themeGet("colors.white", "#FFF")};
       font-weight: 600;
       font-size: 18px;
-      transition: all .4s ease-in;
+      transition: all 0.4s ease-in;
       @media (min-width: 1564px) {
         padding: 25px 30px;
       }
@@ -296,7 +300,7 @@ export const PricingCard = styled.div`
         padding: 15px;
       }
       &:hover {
-        background-color: ${themeGet('colors.primaryHover', '#2563FF')};
+        background-color: ${themeGet("colors.primaryHover", "#2563FF")};
       }
     }
   }

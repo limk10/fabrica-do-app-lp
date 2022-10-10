@@ -16,6 +16,7 @@ import Navbar from "containers/AppCreative2/Navbar";
 import PricingPolicy from "containers/AppCreative2/PricingPolicy";
 import Technology from "containers/AppCreative2/Technology";
 import WalletExperience from "containers/AppCreative2/WalletExperience";
+import WhatsappButton from "containers/AppCreative2/WhatsappButton";
 import WhyYouChoose from "containers/AppCreative2/WhyYouChoose";
 import Head from "next/head";
 import React, { Fragment } from "react";
@@ -35,6 +36,10 @@ const appCreativeTwo = () => {
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link
             rel="stylesheet"
+            href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+          />
+          <link
+            rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Manrope:wght@700;800&display=swap"
           />
         </Head>
@@ -43,6 +48,7 @@ const appCreativeTwo = () => {
         <GlobalStyle />
 
         <ContentWrapper>
+          <WhatsappButton />
           <Sticky top={0} innerZ={9999} activeClass="sticky-nav-active">
             <DrawerProvider>
               <Navbar />

@@ -1,15 +1,14 @@
-import { themeGet } from '@styled-system/theme-get';
-import styled from 'styled-components';
-
+import { themeGet } from "@styled-system/theme-get";
+import styled from "styled-components";
 
 const Section = styled.section`
-    background: linear-gradient(180deg, #FEF5F9 0%, #E6F9FF 100%);
-    position: relative;
-    z-index: 0;
-    overflow: hidden;
-    @media (min-width: 1280px) {
-      margin-bottom: 50px;
-    }
+  background: linear-gradient(180deg, #fef5f9 0%, #e6f9ff 100%);
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  @media (min-width: 1280px) {
+    margin-bottom: 50px;
+  }
 `;
 
 export const BannerContentWrapper = styled.div`
@@ -56,7 +55,7 @@ export const BannerContent = styled.div`
     text-align: center;
   }
   .banner-title {
-    color: ${themeGet('colors.headingColor')};
+    color: ${themeGet("colors.headingColor")};
     font-weight: 700;
     font-size: 60px;
     line-height: 1.3;
@@ -79,33 +78,33 @@ export const BannerContent = styled.div`
   @media (max-width: 600px) {
     .button-group {
       img {
-        max-width: 120px;
+        max-width: 160px;
       }
     }
   }
 `;
 
 export const BannerText = styled.div`
-    font-size: 18px;
-    line-height: 2.22;
-    color: #000000;
-    opacity: 0.7;
-    max-width: 534px;
-    margin-bottom: 30px;
-    @media (max-width: 991px) {
-      margin-left: auto;
-      margin-right: auto;
+  font-size: 18px;
+  line-height: 2.22;
+  color: #000000;
+  opacity: 0.7;
+  max-width: 534px;
+  margin-bottom: 30px;
+  @media (max-width: 991px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  @media (max-width: 600px) {
+    // font-size: 16px;
+    font-size: 13px;
+    line-height: 2;
+  }
+  > p {
+    &:last-child {
+      margin-bottom: 0;
     }
-    @media (max-width: 600px) {
-      // font-size: 16px;
-      font-size: 13px;
-      line-height: 2;
-    }
-    > p {
-        &:last-child {
-            margin-bottom: 0;
-        }
-    }
+  }
 `;
 
 export const Figure = styled.figure`
@@ -140,8 +139,8 @@ export const HighlightedText = styled.p`
   padding: 3px 28px 3px 4px;
   font-size: 14px;
   font-weight: 400;
-  color: ${themeGet('colors.label', '#02073E')};
-  background-color: ${themeGet('colors.white', '#FFF')};
+  color: ${themeGet("colors.label", "#02073E")};
+  background-color: ${themeGet("colors.white", "#FFF")};
   // box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   box-shadow: 0px 6px 15px rgba(67, 99, 136, 0.04);
   display: inline-flex;
@@ -173,8 +172,8 @@ export const HighlightedText = styled.p`
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 0;
-    color: ${themeGet('colors.white', '#FFF')};
-    background-color: ${themeGet('colors.primary', '#FDEF00')};
+    color: ${themeGet("colors.white", "#FFF")};
+    background-color: ${themeGet("colors.primary", "#FDEF00")};
     margin-right: 10px;
     display: inline-block;
     @media only screen and (max-width: 500px) {

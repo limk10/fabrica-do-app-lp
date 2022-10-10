@@ -24,8 +24,10 @@ import icon1 from "common/assets/image/appCreativeTwo/icons/1.png";
 import icon2 from "common/assets/image/appCreativeTwo/icons/2.png";
 import icon3 from "common/assets/image/appCreativeTwo/icons/3.png";
 import icon4 from "common/assets/image/appCreativeTwo/icons/4.png";
-import walletIcon1 from "common/assets/image/appCreativeTwo/icons/5.webp";
-import walletIcon2 from "common/assets/image/appCreativeTwo/icons/6.webp";
+import walletIcon1 from "common/assets/image/appCreativeTwo/icons/8.png";
+import walletIcon2 from "common/assets/image/appCreativeTwo/icons/7.png";
+import walletIcon3 from "common/assets/image/appCreativeTwo/icons/6.png";
+import walletIcon4 from "common/assets/image/appCreativeTwo/icons/5.png";
 import cards from "common/assets/image/appCreativeTwo/icons/cards.png";
 import doc from "common/assets/image/appCreativeTwo/icons/doc.png";
 import grid from "common/assets/image/appCreativeTwo/icons/grid.png";
@@ -293,14 +295,14 @@ export const walletExperience = {
     },
     {
       id: 2,
-      icon: walletIcon2,
+      icon: walletIcon3,
       title: "Boas práticas e as melhores ferramentas",
       content:
         "Trabalhamos com excelentes ferramentas que possibilitam a implementação de metodologias ágeis em conjunto com boas práticas no setor de tecnologia.",
     },
     {
       id: 2,
-      icon: walletIcon2,
+      icon: walletIcon4,
       title: "E muito mais...",
       // content:
       //   "Profissionais capacitados e com dedicação singular a cada projeto.",
